@@ -1,0 +1,125 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Open Sans", sans-serif;}
+html {
+    background-color: white;
+    height: 100%;
+    font-size: 17px;
+    color: #777; 
+}
+body {
+    margin: 0rem 0rem 0rem 0rem;
+    background-color: white;
+    height: 100%;
+    font-size: 17px;
+    color: black;
+}
+
+.top{
+    background-image: url('/images/background-1.jpg');
+    background-size: auto;
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.75;
+}
+
+.personas {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(50%,50%);
+    white-space:nowrap;
+    text-align:center;
+    padding:12px 24px;
+    color:#fff;
+    background-color:#000;
+    font-size:24px;
+    letter-spacing: 10px;
+}
+
+.content{
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1100px
+   /* letter-spacing: px; */
+}
+
+.part_1{
+    color: rgba(64, 64, 64,191);
+    white-space:nowrap;
+    text-align:center;
+    letter-spacing: 4px;
+}
+
+.row2 {
+    padding: 2rem 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row-3 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0px 2rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hifi-p {
+    box-shadow: 1px 1px 2px 1px;
+    height: 40vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0px 1rem 0px;
+}
+
+.hifit {
+    box-shadow: 1px 1px 2px 1px;
+    height: 40vw;
+}
+
+.desk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    /* height: 23.8rem; */
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.ldesk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    /* height: 23.8rem; */
+    box-shadow: 1px 1px 1px 1px;
+    padding: 2rem 0px 2rem 0px;
+}
+
+.lphone {
+    box-shadow: 1px 1px 1px 1px;
+    width: 20vw;
+    /* height: 40rem; */
+}
+
+.ltablet {
+    box-shadow: 1px 1px 1px 1px;
+    width: 30vw;
+    /* height: 40rem; */
+}
+
+.phone {
+    flex: 1;
+    width: 20vw;
+    height: 50vw;
+}
